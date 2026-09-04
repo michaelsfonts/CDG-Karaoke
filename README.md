@@ -2,33 +2,31 @@
 
 ![CDG Karaoke specimen](specimen.png)
 
-A color pixel font that reproduces the lyric type from a CD+G karaoke disc. Words
-not yet sung are white, and each word fills in as it is sung. Music notes stay
-white. It ships with two color palettes so a renderer can flip a word from unsung
-to sung.
+The words on an old karaoke screen, turned into a font. White until you sing them,
+then they fill in, one word at a time, the way the machine paints the line.
 
 ## Files
 
 - `CDGKaraoke.otf`, `CDGKaraoke.ttf` for desktop
-- `CDGKaraoke.woff2`, `CDGKaraoke.woff` for web
+- `CDGKaraoke.woff2`, `CDGKaraoke.woff` for the web
 
 ## How it works
 
-It is a color font (COLR/CPAL): one file, two palettes. Palette 0 is the sung
-state, palette 1 is the unsung state. Switch per word with CSS `font-palette`, or
-a renderer's palette selection, to make a line wipe from one to the other. The four
-music notes (U+2669 to U+266C) stay white in both palettes.
+Every letter comes two ways. White for a word you have not sung yet, filled in for
+one you have. A karaoke player flips each word as you sing it, so the color sweeps
+across the line. The four music notes stay white the whole time.
 
-Charset is ASCII printable plus the four notes. There is no variable axis; the
-color is carried by the palettes, so it renders in any COLR-capable app.
+You get the usual letters, numbers, and symbols, plus those four notes. The color
+is baked in, so it just shows up in any app that does color fonts. Nothing to turn
+on.
 
-## Base font
+## Where the letters came from
 
-Drawn from NimbusRoman-Bold (URW Core 35 v2.0), a Times clone under the SIL Open
-Font License with no reserved font name. It was rasterized onto the CD+G pixel grid
-with hinting and antialiasing off, then squared to match the disc.
+I started with Nimbus Roman Bold, a free Times knockoff. Dropped each letter onto
+the chunky karaoke pixel grid, killed all the smoothing, and squished it a bit so
+it sits the way it does on the screen.
 
 ## License
 
-SIL Open Font License 1.1. See `OFL.txt`. Free to use, embed, study, modify, and
-redistribute. The fonts carry no embedding restrictions (fsType 0).
+Free under the SIL Open Font License. Use it, embed it, change it, pass it around.
+See `OFL.txt`.
