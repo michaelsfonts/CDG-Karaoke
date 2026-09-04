@@ -23,8 +23,8 @@ fill, entry 3 is the notes.
 
 ## Files
 
-- `CDGKaraoke.otf`, `CDGKaraoke.ttf` for desktop
-- `CDGKaraoke.woff2`, `CDGKaraoke.woff` for the web
+- `CDGKaraoke-Regular.otf`, `CDGKaraoke-Regular.ttf` for desktop
+- `CDGKaraoke-Regular.woff2`, `CDGKaraoke-Regular.woff` for the web
 
 To install, open the `.otf` or `.ttf` and hit Install. Release ZIPs are on the
 [Releases](https://github.com/michaelsfonts/CDG-Karaoke/releases) page.
