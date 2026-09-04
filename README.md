@@ -23,8 +23,7 @@ on.
 ## Where the letters came from
 
 I started with Nimbus Roman Bold, a free Times knockoff. Dropped each letter onto
-the chunky karaoke pixel grid, killed all the smoothing, and squished it a bit so
-it sits the way it does on the screen.
+the chunky karaoke pixel grid, killed all the smoothing, and squished it a bit.
 
 ## License
 
