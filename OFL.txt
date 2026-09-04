@@ -1,4 +1,4 @@
-Copyright 2026 The CDG Karaoke Project Authors.
+Copyright 2026 Michael Seh (https://michaelsfonts.com), with Reserved Font Name "CDG Karaoke".
 Portions Copyright (c) 2014, 2015 by (URW)++ Design & Development (NimbusRoman-Bold).
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
